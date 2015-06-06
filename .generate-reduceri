@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd img
+for (( num=1; num<=$1; num++ ));do
+    convert -size 180x180 xc:none -gravity NorthEast -font Alfa-Slab-One \
+    -fill black -stroke black -pointsize 27 -annotate +0+10 "-$num%" -blur 0x3 \
+    -fill orange -stroke white -pointsize 27 -annotate +0+10 "-$num%" \
+    shadow-over-reducere-background.png +swap \
+    -background none -flatten \
+    shadow-over-reducere/"$num".png
+done
