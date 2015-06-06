@@ -20,7 +20,7 @@
 .sprite-caroussel-thumb-bannere,
 .sprite-caroussel-thumb-autocolante,
 .sprite-caroussel-thumb-afise {
-            background-image: url('../img/caroussel-sprite/caroussel-thumb.png');
+            background-image: url('//s3-eu-west-1.amazonaws.com/printuridigital.ro/img/caroussel-sprite/caroussel-thumb.png');
             background-repeat: no-repeat;
         }
         
@@ -172,7 +172,7 @@
     .sprite-caroussel-thumb-bannere,
     .sprite-caroussel-thumb-autocolante,
     .sprite-caroussel-thumb-afise {
-                background-image: url('../img/caroussel-sprite/caroussel-thumb.png');
+                background-image: url('//s3-eu-west-1.amazonaws.com/printuridigital.ro/img/caroussel-sprite/caroussel-thumb.png');
                 -webkit-background-size: 900px 855px;
                 -moz-background-size: 900px 855px;
                 background-size: 900px 855px;
