@@ -1,0 +1,67 @@
+.col1, .col2, .col3, .col4 {display: bloc; float: left} 
+.col1:hover, .col2:hover, .col3:hover, .col4:hover {background-color: #dea}
+.col1 {width: 25%}
+.col2 {width: 50%}
+.col3 {width: 75%}
+.col4 {width: 100%}
+.ln {margin-bottom: 1em}
+.bb {border-bottom: 1px solid #ddd; padding-bottom: 0.5em;margin-bottom: 1em}
+
+input, select{display: inline;width: auto; vertical-align: middle;}
+select option {font-size: 1em; padding: 0; margin: 0}
+input[type="checkbox"] {
+    clear: none;
+    float: none;
+    margin: 0.5em;
+    width: auto;
+}
+h1{font-size: 1.5em;}
+h3{font-size: 1em; margin: 0; padding: 0.5em oem; color: gray}
+
+fieldset {
+	border: none;
+	margin-top: 0px;
+	padding: 16px 20px;
+	background-color: white;
+}
+
+legend {
+	color: #fff;
+    background-color: #dea;
+	font-size: 1.2em;
+	font-weight: bold;
+    text-transform: uppercase;
+}
+
+label{display: inline; font-size: 1em; font-weight: normal; margin: 0em; padding-right: 0; vertical-align: middle;}
+
+form{margin: 0px; padding: 0px; border: none; width: 445px;float: left;position: relative;clear: right;}
+form fieldset {width: auto; height: auto;margin: 0px;padding: 1em;background-color: #F8FFBF;}
+
+.important  {margin-bottom: 0px; font-size: 1em; font-weight: bold; background-color: #F8FFBF; color: black;}
+#start{font-size: 1em;width: auto; margin: 0.5em 0em;}
+
+
+
+div#fieldsets{border: none; width: 100px;float: left;position: relative; margin-top: 1em; padding: 0;}
+#fieldsets a{display: block;padding: 7px; font-size: 1em; font-weight: bold; color: black;}
+#fieldsets a:hover{text-decoration: none;margin-bottom: 0px; background-color: #F8FFBF;}
+#fieldsets a:active{margin-bottom: 0px;}
+#fieldsets embed{margin-top: 50px;}
+#link {margin-left: 200px;font-size: 1em; font-weight: bold; color: black; clear: both;}
+
+.help{margin: 0;}
+.help p{margin: 0; padding: 0;}
+
+
+
+
+.error{	color: #900;border: 1px solid red; background-color: yellow;}
+.error-message {clear: both;}
+
+.miniColors{display: none;}
+
+#generator-calendar dd{margin-bottom: 0em;}
+
+#width, #height {width: 4em;}
+

@@ -1,0 +1,107 @@
+/* Default Facebook CSS */
+#uploader
+{
+    font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;
+    color: #333333;
+    width: 700px;
+    margin: auto;
+}
+/* Default Anchor Style */
+#uploader a
+{
+    color: #3b5998;
+    outline-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+#uploader a:hover
+{
+    text-decoration: underline;
+}
+/* Facebook Box Styles */
+
+.info
+{
+    background-color: #eceff6;
+    border: 1px solid #d4dae8;
+    color: #333333;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 678px;
+}
+.succes
+{
+    background-color: #fff9d7;
+    border: 1px solid #e2c822;
+    color: #1c3043;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 678px;
+}
+.error
+{
+    background-color: #ffebe8;
+    border: 1px solid #dd3c10;
+    color: red;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#model-box, #indicator-box, #upload-box, #comanda-box, #diverse-box {width: 700px; float: left; margin: 0.25em 0em;}
+#upload-box, #comanda-box
+{
+    background-color: #f7f7f7;
+    border: 1px solid #cccccc;
+    color: #333333;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 678px;
+}
+#indicator-box {width: 700px; padding-left: 5px;}
+#diverse-box a{ padding: 1em;}
+
+#model-box{float: none; margin: auto; width: 700px}
+#model-box label{width:340; height:240; display: block; float: left;border: none; padding: 0px; border: 5px solid #fff; cursor: pointer;}
+#model {float: left;}
+#model-box form input{display: none;}
+#pick{font-size: 1.5em; float: left; clear: left;display: block;}
+#model-box label.model-selected{border: 5px solid #d8e8f7; padding: 0px;}
+#model-box label:hover{border: 5px solid #d8e8f7; padding: 0px;}
+
+
+.luna-necompletata, .luna-completata{width: 52px; border-right: 1px solid red;  border-bottom: 1px solid red; height: 60px; overflow: hidden; float: left; 
+background: url(/css/images/spire.jpg) no-repeat center top #dfedfa; text-align: center; padding-top : 12px; font-weight: bold; color: #1c3043;}
+.luna-completata{ background-color: #FFF9D7;}
+
+ #upload-box input, select{font-size: 1.25em;}
+ 
+#comanda-box input,  #comanda-box textarea{font-size: 1.25em;float: left; clear: left;}
+#comanda-box textarea{height: 10em; width: 70%;}
+#comanda-box label{display: block; float: left; clear: left;}
+
+#pick{font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif; width: 200; height: 150; background-color: #FDF3CB;}
+#pickx{color: #6FA9D9; font-size: 0.8em; text-align: center;}
+#picky{background-color: #F7EDCA; color: #6FA9D9; width: 5em; display: block; font-weight: bold; position: relative; margin: auto;}
+
+.shadow 
+{
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+.round
+{
+     -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}

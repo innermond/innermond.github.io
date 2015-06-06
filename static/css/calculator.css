@@ -1,0 +1,97 @@
+body { 
+  font-size: 75%;
+  color: #000; 
+  font-family: georgia, sans-serif;
+  background-color: white;
+}
+p{margin-bottom: 1em;}
+input, select{font-family: georgia, sans-serif;}
+
+h1{font-size: 1.5em;padding-bottom: 5px;}
+
+form {
+	top: 20px;
+	clear: both;
+	margin-right: 0px;
+	padding: 0;
+	width: 100%;
+	border: none;
+}
+fieldset {
+	border: 1px solid #b4b4b4;
+	margin-top: 0px;
+	padding: 16px 20px;
+	background-color: white;
+}
+fieldset legend {
+	color: #444;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.small { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em;border-top: 1px solid silver; }
+
+
+/* Page */
+#page {
+	width: 1262px;
+	margin: 0;
+	margin-top: 0px;
+	position: absolute;
+}
+
+/* Content */
+
+#content {
+	width: 1000px;
+	margin: auto;
+}
+#content form{margin: 0px; padding: 0px; width: 700px;/*float: left;*/position: relative;clear: right;}
+#content form fieldset{height: auto;}
+#content form fieldset fieldset {width: auto; height: auto;margin: 30px 0px;padding: 20px;background-color: #F8FFBF;}
+#content form fieldset fieldset select{font-size: 2.5em;width: 100%;}
+#content form fieldset fieldset label{font-size: 15px;}
+#content form fieldset fieldset textarea{width: 100%;height: 4em;font-size: 1.5em;}
+#content form fieldset input{font-size: 2.5em;width: 100%}
+#content form fieldset input#trimite{font-size: 2.5em;width: 40%;display: block; border: 1px solid silver; background-color: yellow }
+#content form fieldset fieldset button{font-size: 2.5em;display: block;}
+label {display: inline;font-size: 1em;padding-right: 20px;}
+
+
+#fieldsets{width: 200px;float: left;position: relative;margin-top: 150px;}
+#fieldsets a{display: block;padding: 7px; font-size: 1em; font-weight: bold; color: black;}
+#fieldsets a:hover{text-decoration: none;margin-bottom: 0px; background-color: #F8FFBF; background: url(images/shadow.png) #F8FFBF right repeat-y;}
+#fieldsets a:active{margin-bottom: 0px;}
+#fieldsets embed{margin-top: 50px;}
+.important  {margin-bottom: 0px; border: 1px solid #b4b4b4; border-right: none;padding: 5px; font-size: 1em; font-weight: bold; background: url(images/shadow.png) #F8FFBF right repeat-y; color: black;}
+.infos{width: 100%; float:left; position: relative;display: block;clear: both;margin: 20px;}
+.inputos{width: 100%;float:left; position: relative;display: block;}
+
+#rezumat{width: 100%;}
+#rezumat ul{width:100%;}
+#rezumat ul li{padding-bottom: 10px;display: inline;}
+#rezumat1{width: 100%;}
+
+table.tiraje_alternative{width: 100%;border-collapse: collapse;margin-bottom: 3em;}
+table.tiraje_alternative th{font-weight: bold;}
+table.tiraje_alternative tr.tiraj_cerut{font-weight: bold;font-size: 1.5em;}
+table.tiraje_alternative tr.mouseover{font-weight: bold;font-size: 1em;cursor: pointer;background-color: #F8FFBF;}
+table.tiraje_alternative tr.mouseout{font-weight: normal;font-size: 1em;}
+table.tiraje_alternative tr.tiraj_existent{background-color: yellow;}
+table.tiraje_alternative tr.tiraj_special{background-color: #F8FFBF;font-size: 1.5em;font-weight: bold;}
+.tiraje_alternative td{border-bottom: 1px solid silver; padding: 10px;}
+.tiraje_alternative td input#tirajer{width: 90px;}
+.tiraje_alternative td.tiraj_special_f1{font-weight: normal;}
+
+table.alegerea_curenta{border-collapse: collapse;width: 100%;}
+table.alegerea_curenta td{padding: 10px;border:1px solid silver;border-left: 1px solid silver;}
+table.alegerea_curenta td.pret{font-size: 3em;background-color: #F8FFBF;white-space: nowrap;}
+table.alegerea_curenta td.prop{border-right: none;font-weight: bold;cursor:pointer;}
+table.alegerea_curenta td.prop:hover{background-color: #F8FFBF;}
+table.alegerea_curenta td.val{border-left: none;}
+
+.error{	color: #900;border: 1px solid red; background-color: yellow;}
+.error-message {clear: both;}
+.fereastra{min-height: 40px; background: url(images/face-glasses.png) 5px 5px no-repeat transparent; border: none; padding: 5px; 
+padding-left: 50px;color: black; width: 90%; font-size: 1.25em; font-weight: bold;}
+#rejuvenate_trimite_cererea_curenta{font-weight: bold; font-size: 1em;padding: 20px;display: block; color: red;}

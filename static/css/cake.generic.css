@@ -1,0 +1,489 @@
+.center{margin: auto;text-align: center;}
+
+/* General Style Info */
+body {
+	color: #000;
+	font-family: "Times New Roman", serif;
+	font-size: 1.25em;
+	background: #6f1b1b url(/img/bkg_shadow.jpg) repeat-y center top;
+}
+
+table {empty-cells:show; border-collapse: collapse;}
+a {
+	background-color: inherit;
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a:hover {
+	background-color: inherit;
+	color: gray;
+	text-decoration:none;
+}
+a img {
+	border:none;
+}
+h1, h2, h3, h4 {
+
+	font-weight:bold;
+	font-style: italic;
+}
+h1 {
+	color: black;
+	font-size: 150%;
+	margin: 0.1em 0;
+}
+h2 {
+	padding-left: 30px;
+	color: #500000;
+	font-size: 130%;
+	margin: 0px;
+	background: transparent url(/img/ornament_h.gif) left center no-repeat;
+}
+
+form p{color: red;font-size: 80%;padding-top: 10px;}
+h3 {
+	color: black;
+	font-size: 105%;
+	padding-top: 2em;
+}
+h4 {
+	color: black;
+	font-weight: normal;
+	padding-top: 0.5em;
+}
+
+
+/* Layout */
+#container {
+	text-align: left;
+	width: 900px;
+	margin: auto;
+	border: 1px dotted #f3b705;
+}
+
+#header{
+background: transparent url(/img/pizza.jpg) top left no-repeat;
+height: 190px;width: 900px;
+position: relative;
+}
+
+#header h1 { 
+	color: #ffffff;
+	padding: 5px 50px;
+	height: 5em;
+}
+#header h1 a { 
+	color: #ffffff;
+	background: inherit;
+	text-decoration: none;
+}
+#header h1 a:hover { 
+	color: #ffffff;
+	background: inherit;
+	text-decoration: none;
+}
+#content{
+	background: #ffba00 url(/img/bkg_content.jpg) top left;
+	clear: both;
+	color: #333;
+	padding: 10px 10px 20px 10px;
+}
+#footer {
+	clear: both;
+	padding: 6px 10px;
+	text-align: right;
+	background: #e7daad url(/img/footer_top_shadow.jpg) top left repeat-x; 
+}
+
+/* Tables */
+table {
+	background-color: #f1d69e;
+	border: 1px solid #eab80a;
+	clear: both;
+	color: #600000;
+	margin-bottom: 10px;
+	width: 100%;
+}
+th {
+	background-color: #e12700;
+	background-image: url(/img/small.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 20px;
+	border-top: 1px solid #9e0000;
+	border-left: 1px solid #9e0000;
+	border-right: 1px solid #eb6b50;
+	border-bottom: 1px solid #eb6b50;
+	text-align: left;
+	font-size: 0.9em;
+	white-space: nowrap;
+	cursor: pointer;
+	cursor: hand;
+}
+
+th.headerSortUp {
+	background-image: url(/img/small_asc.gif);
+	background-color: #f65b0c;
+}
+th.headerSortDown {
+	background-image: url(/img/small_desc.gif);
+	background-color: #f65b0c;
+	
+}
+
+th a {
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+
+th a:hover {
+	background-color: orange;
+	color: #333;
+	text-decoration: none;
+}
+
+table tr td {
+	background: #ff9801;
+	border-right: 1px solid #ffeb9e;
+ 	padding: 10px 20px;
+	text-align: left;
+	vertical-align: top;
+	font-size: 0.9em;	
+}
+table tr.altrow td {
+	background: #f4d193;
+}
+td.actions {
+	text-align: center;
+	font-size: 80%;
+	white-space: nowrap;
+}
+td.actions a {
+	color: red;
+	font-weight: normal;
+	margin: 0px 6px;
+	display: block;
+	padding-bottom: 10px;	
+}
+.cakeSqlLog table {
+	background: #f4f4f4;
+}
+.cakeSqlLog td {
+	padding: 4px 8px;
+	text-align: left;
+}
+
+/* Paging */
+div.paging {
+	color: orange;
+	margin-bottom: 2em;
+	font-size: 70%;
+}
+
+div.paging a{
+	color: #8F5400;
+}
+
+div.paging div.disabled {
+	color: #BF7000;
+	display: inline;
+}
+
+/* Scaffold View */
+dl {
+	line-height: 2em;
+	margin: 0em 0em;
+	width: 100%;
+	color: #6f1b1b;
+}
+dl .altrow {
+
+}
+dt {
+	font-weight: bold;
+	padding-left: 4px;
+	vertical-align: top;
+	border-top: 1px dotted red;
+}
+
+dd {
+	margin-left: 10em;
+	margin-top: -2em;
+	vertical-align: top;
+}
+
+.view{	width: 880px; overflow: hidden;}
+
+/* Forms */
+form {
+	clear: both;
+	margin-right: 20px;
+	padding: 0;
+	width: 100%;
+	border: none;
+}
+fieldset {
+	border: 1px solid orange;
+	margin-top: 30px;
+	padding: 16px 20px;
+}
+fieldset legend {
+	color: #444;
+	font-size: 110%;
+	font-weight: bold;
+}
+form div {
+	clear: both;
+	margin-bottom: 1em;
+	padding: .5em;
+	vertical-align: text-top;
+}
+form div.required {
+	color: red;
+	font-weight: bold;
+}
+form div.optional, form div.input {
+	color: #444;
+}
+form div.submit {
+	border: 0;
+	clear: both;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+label {
+	display: block;
+	font-size: 105%;
+	padding-right: 20px;
+}
+input, textarea {
+	clear: both;
+	display: block;
+	font-size: 100%;
+	font-family: "verdana", sans-serif;
+	padding: 2px;
+	width: 100%;
+}
+
+input[type=hidden]{
+	display: none;
+}
+
+input.spinButton{
+	width: 15px;
+	padding: 2px;	
+}
+
+select {
+	clear: both;
+	font-size: 110%;
+	vertical-align: text-bottom;
+}
+select[multiple=multiple] {
+	width: 100%;
+}
+option {
+	font-size: 110%;
+	padding: 0 3px;
+}
+input[type=checkbox] {
+	clear: left;
+	float: left;
+	margin: 0px 6px 7px 2px;
+	width: auto;
+}
+input[type=submit] {
+	display: inline;
+	padding: 2px 5px;
+	width: auto;
+	font-size: 90%;
+	vertical-align: bottom;
+}
+
+/* Notices and Errors */
+div.message, p.error, div.error-message {
+	color: #900;
+	font-size: 120%;
+	font-weight: bold;
+	margin: 8px 0px;
+}
+div.error-message {
+	clear: both;
+}
+div.error em {
+	font-size: 140%;
+	color: #003d4c;
+}
+span.notice {
+	background-color: #c6c65b;
+	color: #fff;
+	display: block;
+	font-size: 140%;
+	padding: 0.5em;
+	margin: 1em 0;
+}
+
+/*  Nav & Actions */
+div.nav {
+	text-align: left;
+	position: absolute;
+	top: 9em;
+	left: 60%;
+}
+div.nav ul li a {
+	display: block;
+	background: #fff;
+	color: #003d4c;
+	padding: 3px 8px;
+	text-decoration: none;
+}
+div.nav ul {
+	background: #003d4c;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+div.nav li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+div.nav ul li a {
+	background: orange;
+	color: #003d4c;
+	padding: 3px 8px;
+	text-decoration: none;
+}
+div.nav ul li a:hover {
+	background: #003d4c;
+	color: #fff;
+}
+
+/*  Actions  */
+div.actions {
+	clear: both;
+	margin-top: .2em;
+	text-align: left;
+}
+div.actions ul {
+	margin: 0;
+	padding: 0;
+	font-size: 1.3em;
+}
+div.actions li {
+	display: inline;
+	list-style-type: none;
+	margin: 0 2em 0 0;
+	padding: 0;
+}
+div.actions ul li a {
+	background: orange;
+	color: white;
+	text-decoration: none;
+}
+div.actions ul li a:hover {
+	background: black;
+	color: #fff;
+}
+
+/* Related */
+div.related {
+	clear: both;
+	display: block;
+}
+
+/* Debugging */
+pre {
+	color: #000;
+	background: #f0f0f0;
+	padding: 1em;
+}
+
+pre.cake_debug {
+	background: #ffcc00;
+	font-size: 120%;
+	line-height: 18px;
+	margin: 4px 2px;
+	overflow: auto;
+	position: relative;
+}
+div.cake-stack-trace {
+	background: #fff;
+	color: #333;
+	margin: 4px 2px;
+	padding: 4px;
+	font-size: 120%;
+	line-height: 18px;
+	overflow: auto;
+	position: relative;
+}
+div.cake-code-dump pre {
+	position: relative;
+	overflow: auto;
+}
+div.cake-stack-trace pre, div.cake-code-dump pre {
+	color: #000000;
+	background-color: #F0F0F0;
+	border: 1px dotted #606060;
+	margin: 4px 2px;
+	padding: 4px;
+	overflow: auto;
+}
+div.cake-code-dump pre, div.cake-code-dump pre code {
+	clear: both;
+	font-size: 12px;
+	line-height: 5px;
+	margin: 4px 2px;
+	padding: 4px;
+	overflow: auto;
+}
+div.cake-code-dump span.code-highlight {
+	background-color: #FFFF00;
+}
+
+.even td{
+	background-color:transparent;
+}
+
+.odd td{
+	background-color:#f8d56c;
+}
+
+tr.child td{background-color: white;}
+
+table tr.altrow td {
+	background-color: #eacf94;
+}
+
+table tr.normrow td {
+	background: #ff8400;
+}
+
+tr.total_cart td{
+	border: none;
+	border-top: 1px solid yellow;
+	empty-cells:hide;
+	font-size: 1.5em;
+}
+
+div#top_menu{position: relative;top: 10px;}<!--{position: relative;top: 140px;} -->
+div#top_menu ul{list-style: none;}
+div#top_menu ul li{background: #74a00f url(/images/button_grill.jpg) left top no-repeat;
+height: 50px;  float: right;position: relative;	}
+div#top_menu ul li a{display: block;background: transparent url(/images/button_grill_rotated.jpg) right bottom no-repeat; 
+cursor: pointer;height: 30px;text-decoration: none;padding: 20px 10px 0px 10px; 
+font-family: "Times New Roman", serif; font-size: 0.9em; color: #e6c887;}
+div#top_menu ul li a:hover{color: #6f1b1b;}
+
+
+div#produsele{width: 900px; height: 217px;margin: auto; padding:0px;position: relative; top: 0px;text-align: center;
+background: #eab80a url(/img/content_shadow.jpg) bottom left repeat-x;}
+div#produsele a{margin: 0px;}
+div#produsele a img{margin-top: 11px;}
+
+div#info{padding: 10px;}
+
+blockquote { width: 80%; margin: 0px; padding: 20px; clear: both; font-style: italic;}
+p.fereastra{margin-bottom: 20px; text-align: justify; background-color: white; border: 1px solid #CFCFCF; border-left: 5px solid #83B93C; padding: 15px; color: #3F3F3F;}
