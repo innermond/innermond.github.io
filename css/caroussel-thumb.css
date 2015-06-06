@@ -1,0 +1,181 @@
+﻿/* glue: 0.9.4 hash: 4929e94475 */
+.sprite-caroussel-thumb-timbru-sec-folio,
+.sprite-caroussel-thumb-sublimare,
+.sprite-caroussel-thumb-serigrafie,
+.sprite-caroussel-thumb-print-3d,
+.sprite-caroussel-thumb-pliante,
+.sprite-caroussel-thumb-mape-prezentare,
+.sprite-caroussel-thumb-legitimatii,
+.sprite-caroussel-thumb-laminare,
+.sprite-caroussel-thumb-invitatii,
+.sprite-caroussel-thumb-flyere,
+.sprite-caroussel-thumb-etichete,
+.sprite-caroussel-thumb-diplome,
+.sprite-caroussel-thumb-casete-luminoase,
+.sprite-caroussel-thumb-carti,
+.sprite-caroussel-thumb-carti-de-vizita,
+.sprite-caroussel-thumb-calendare,
+.sprite-caroussel-thumb-brosuri,
+.sprite-caroussel-thumb-bilete-balul-bobocilor,
+.sprite-caroussel-thumb-bannere,
+.sprite-caroussel-thumb-autocolante,
+.sprite-caroussel-thumb-afise {
+            background-image: url('../img/caroussel-sprite/caroussel-thumb.png');
+            background-repeat: no-repeat;
+        }
+        
+        .sprite-caroussel-thumb-timbru-sec-folio {
+            background-position: 0 0;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-sublimare {
+            background-position: -180px 0;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-serigrafie {
+            background-position: 0 -180px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-print-3d {
+            background-position: -180px -180px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-pliante {
+            background-position: -360px 0;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-mape-prezentare {
+            background-position: -360px -180px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-legitimatii {
+            background-position: 0 -360px;
+            width: 180px;
+            height: 135px;
+        }
+        
+        .sprite-caroussel-thumb-laminare {
+            background-position: -540px 0;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-invitatii {
+            background-position: -540px -180px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-flyere {
+            background-position: 0 -495px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-etichete {
+            background-position: -180px -495px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-diplome {
+            background-position: -360px -495px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-casete-luminoase {
+            background-position: -540px -495px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-carti {
+            background-position: -720px 0;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-carti-de-vizita {
+            background-position: -720px -180px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-calendare {
+            background-position: -720px -360px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-brosuri {
+            background-position: 0 -675px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-bilete-balul-bobocilor {
+            background-position: -180px -675px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-bannere {
+            background-position: -360px -675px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-autocolante {
+            background-position: -540px -675px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        .sprite-caroussel-thumb-afise {
+            background-position: -720px -675px;
+            width: 180px;
+            height: 180px;
+        }
+        
+        @media screen and (-webkit-min-device-pixel-ratio: 1.0), screen and (min--moz-device-pixel-ratio: 1.0), screen and (-o-min-device-pixel-ratio: 100/100), screen and (min-device-pixel-ratio: 1.0), screen and (min-resolution: 1.0dppx) {
+            .sprite-caroussel-thumb-timbru-sec-folio,
+    .sprite-caroussel-thumb-sublimare,
+    .sprite-caroussel-thumb-serigrafie,
+    .sprite-caroussel-thumb-print-3d,
+    .sprite-caroussel-thumb-pliante,
+    .sprite-caroussel-thumb-mape-prezentare,
+    .sprite-caroussel-thumb-legitimatii,
+    .sprite-caroussel-thumb-laminare,
+    .sprite-caroussel-thumb-invitatii,
+    .sprite-caroussel-thumb-flyere,
+    .sprite-caroussel-thumb-etichete,
+    .sprite-caroussel-thumb-diplome,
+    .sprite-caroussel-thumb-casete-luminoase,
+    .sprite-caroussel-thumb-carti,
+    .sprite-caroussel-thumb-carti-de-vizita,
+    .sprite-caroussel-thumb-calendare,
+    .sprite-caroussel-thumb-brosuri,
+    .sprite-caroussel-thumb-bilete-balul-bobocilor,
+    .sprite-caroussel-thumb-bannere,
+    .sprite-caroussel-thumb-autocolante,
+    .sprite-caroussel-thumb-afise {
+                background-image: url('../img/caroussel-sprite/caroussel-thumb.png');
+                -webkit-background-size: 900px 855px;
+                -moz-background-size: 900px 855px;
+                background-size: 900px 855px;
+            }
+        }
+        
